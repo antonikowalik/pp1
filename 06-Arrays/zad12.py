@@ -13,3 +13,5 @@ for i in tablica:
     for j in i:
         print(j, end = " ")
     print()
+
+print(f"{tablica[0][2]}\n{tablica[1][2]}")
