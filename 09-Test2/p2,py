@@ -1,0 +1,10 @@
+def f(human_age):
+    human = 0
+    for i in range(human_age):
+        if i <= 1:
+            human += 10
+        else:
+            human += 4
+    return(human)
+
+print(f(2))
